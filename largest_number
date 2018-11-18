@@ -1,0 +1,7 @@
+# A = [ 3, 30, 34, 5, 9 ]
+A = [8, 89]
+A = [str(c) for c in A]
+def my_cmp(a,b):
+    return cmp(int(b+a), int(a+b))
+A.sort(my_cmp)
+print(A)
